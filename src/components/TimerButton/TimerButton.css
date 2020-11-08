@@ -1,0 +1,19 @@
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 auto;
+  text-align: center;
+  margin: 20px 20px;
+  border: var(--button-border);
+  font-size: var(--button-size);
+  font-size: 3vw;
+  background-color: darkslategray;
+  color: white;
+  border-radius: 10%;
+  font-weight: bold;
+}
+
+.button-container :hover {
+  cursor: pointer;
+}
